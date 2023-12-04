@@ -10,7 +10,9 @@ SELECT
 FROM accident_data..data;
 ```
 **Answer:**
+
 The data consists of entries from 01/01/2019 to 31/12/2019.
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/2c0baad2-c722-401c-9f56-a821bc38bb64)
 
 
@@ -22,6 +24,7 @@ SELECT
 FROM accident_data..data;
 ```
 **Answer:**
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/c5aea3a4-ed31-4537-b363-33d96b29304b)
 
 
@@ -36,6 +39,7 @@ GROUP BY [District Area]
 ORDER BY AccidentCount DESC;
 ```
 **Answer:**
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/69e621e8-002f-4a27-9049-6c2a18dcd196)
 
 
@@ -51,6 +55,7 @@ GROUP BY [Weather_Conditions]
 ORDER BY Number_of_accidents DESC;
 ```
 **Answer:**
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/889c68b9-9dc1-44ea-b67d-fed4a1a37b27)
 
 
@@ -65,6 +70,7 @@ GROUP BY [Vehicle_Type]
 ORDER BY Number_of_accidents DESC;
 ```
 **Answer:**
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/e5766a48-40ea-48ac-b3db-55ec0b9ef64d)
 
 
@@ -79,5 +85,7 @@ GROUP BY [Vehicle_Type]
 ORDER BY Number_of_accidents DESC;
 ```
 **Answer:**  
+
 No, the number of casualties per accident averaged 1 for each vehicle type.
+
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/3acad5b2-df56-4dbf-8695-191469fc829e)
