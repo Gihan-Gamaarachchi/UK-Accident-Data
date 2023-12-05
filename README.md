@@ -89,3 +89,16 @@ ORDER BY Number_of_accidents DESC;
 No, the number of casualties per accident averaged 1 for each vehicle type.
 
 ![image](https://github.com/Gihan-Gamaarachchi/UK-Accident-Data/assets/137648970/3acad5b2-df56-4dbf-8695-191469fc829e)
+
+
+### 7) Does the average number of casualties change depending on the vehicle type?
+
+```
+SELECT
+  [Vehicle_Type],
+  COUNT(*) AS Number_of_accidents
+FROM accident_data..data 
+GROUP BY [Vehicle_Type]
+ORDER BY Number_of_accidents DESC;
+```
+**Answer:**  
